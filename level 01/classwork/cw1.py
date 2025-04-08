@@ -1,4 +1,6 @@
-# string არის სიტყვა რომელიხ მოთავსებულია ბრჭყალებში _""
-# integer არის მთელი რიცხვის
-# float არის ათწილადი ან წილადი რიცხვი
-# boolean არის True , False
+user_name = "gabi"
+user_lastname = "karkashadze"
+user_email = "gabi@gmail.com"
+user_age = '13'
+user_academy = "GOA"
+print(user_name ,user_lastname ,user_email,user_age, user_academy )

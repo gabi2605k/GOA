@@ -1,4 +1,4 @@
-name = "gabi"
-name = 12
-name = 12.0
-name = True
+gabi = "name"
+gabo = "name"
+gabrieli = "name"
+print(gabi,gabo,gabrieli)
