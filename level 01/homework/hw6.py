@@ -1,5 +1,4 @@
-name = input("Enter name:")
-if name == "gabriel karkashadze":
-    print("yes")
-else:
-    print("no")
+intenger = 12
+string = "str"
+floot = 12.1
+boolen = True

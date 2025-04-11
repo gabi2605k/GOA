@@ -1,5 +1,5 @@
-# input() მომხმარებელს აძლევს მომხმარებელს საშვალებას რომ დაწეროს ტერმინალში
-# print() ში რაც წერია იმის უშვებს ტერმინალში
-# str() ფუნქცია აქცეს სტრინგად
-# float() ფუნქცია აქცეს ათწილადად
-# int() ფუნქცია აქცეს მთელ რიცხვად
+namec = str(input("Enter cars name:"))
+colorc = str(input("Enter cars color:"))
+prisec = float(input("Enter cars prise"))
+reelesc = int(input("Enter cars reeles date:"))
+print("cars name is"+""+namec+""+"car color is"+""+colorc+""+"date of reeles is"+""+reelesc+""+"which cost"+""+prisec)

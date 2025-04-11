@@ -1,2 +1,2 @@
-text = input("Enter text:")
-print(text * 10)
+livingp = input("Enter your living place:")
+favpet = input("Enter your favourite pat:")
