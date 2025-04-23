@@ -2,9 +2,9 @@
 # ჩათვლით ყველა რიცხვი შეკრიბე და ეს ჯამი დაპრინტე.
 # მომხმარებელს შემოატანინე რიცხვი
 num = int(input("Enter num:"))
+sum = 0
 i = 1
-j = 0
-while 1 < num:
-    j = j + i
-    i =i+1
-print(j)
+while i < num:
+    i +=1
+    sum +=i
+print(sum)
