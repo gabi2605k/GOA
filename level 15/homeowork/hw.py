@@ -2,9 +2,9 @@
 # დავალებაა ამ სტრინგიდან ამოშალო კენტ იდექსზე 
 # მდგომი ასოები და დააბრუნო სტრინგი მათ გარეშე
 def f(name):
-    kent = []
+    kent = ""
     for i in range(len(name)):
         if i % 2 != 0:  
-            kent.append(name[i])
+            kent += name[i]
     return kent
 print(f("Gabo"))

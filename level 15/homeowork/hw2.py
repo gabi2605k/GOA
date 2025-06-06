@@ -2,9 +2,9 @@
 # ,თქვენი დავალებაა ამოშალოთ ამ სტრინგიდან მხოლოდ ხმოვნები და დააბრუნოთ
 #  ეს სტრინგი ხმოვნების გარეშე
 def f(wrd):
-    xmv = []
+    xmv = ""
     for i in wrd:
-        if i == "a" or i == "e" or i == 'i' or i == "o" or i == "u":
-            xmv.append(i)
+        if i not in "hdrlqtrsdgr":
+            xmv += i
     return xmv
 print(f("hidroeleqtrosadguri"))
