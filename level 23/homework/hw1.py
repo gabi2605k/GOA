@@ -3,3 +3,12 @@
 # apped ამატებს სიაში 
 # romove შლის სიის ერთწევრს მისი სახელით
 # pop შლის სიის ერთწევრს მისი ინდექსით
+# insert ამატებს სიაში ელემენტს ინდექსის მიხედვით
+# extend აერთებს ორ სიას
+list = [1,2,3,4,5,"GOA"]
+list1 = [124,516,15]
+list.append(6)
+list.insert(2,2.5)
+list.pop(4)
+list.remove("GOA")
+list.extend(list1)

@@ -5,5 +5,6 @@ s = 0
 while s < len(name):
     print(name[s])
     s += 1
+
 for i in name:
     print(i)
