@@ -6,3 +6,4 @@ while s != 2:
     print(word[s])
 
 for i in word:
+    print(i)
