@@ -1,0 +1,182 @@
+<!-- შექმენი singlepage website,ამ ვებსაიტზე უნდა გქონდეს პირველ რიგში დალაგებული წყობა, ანუ h
+ eader main და footer,header ში უნდა გქონდეს ნავიგაცაი რისი დახმარებითაც უნდა შეძლოს მომხმარე
+ ბელმა რომ გადავიდეს კონკრეტულ მონაკვეთზე,გასტილეთ ნაციგაციაში მყოფი ელემენტები ლამაზად sty
+ le ატრიბუტის გამოყენებით,რაც შეეხება manin ს და საიტის თემატიკას უნდა იყოს ტანსაცმლის მაღაზია
+ ,საიტზე უნდა გქონდეთ წარმოდგენილი 10 მდე პროდუქტი რომელიც უნდა დაყოტ რათქმაუნდა section
+  ებად ან div ებად,თითოეული ტანსაცმლის ინფორმაცია ცალკე სექციებში უნდა გქონეეთ მოთავსებული,
+  რაც შეეეხება თვითონ სექციას,თითეულ სექციაში უნდა გქონდეთ სათაური რომელშიც ეწერება ამ პროდ
+  უქტის დასახელება,სათაურის ქვემოთ უნდა გქონდეთ ამ პროდუქტის ფასი,სათაურს გაუზარდეთ ზომა და
+   შეუცვალეთ ფერი,რაც შეეხება ფასს უნდა იყოს სათაურზე პატარა ზომის მაგრამ უნდა იყოს მუქი და წი
+   თელი ფერის,ამ ფასის ქვევით უნდა გქონდეთ განლაგებული 3 სურათი ამ კონკრეტულ პროდუქტზე(ან
+   უ თთ პროდუქტზე სამ სამი ფოტო)რომლებსაც შეუცვლით ზომას შესაბამის ნასწავლი ატრიბუტების გ
+   ამოყენებით,ამ ფოტოების ქვემოთ უნდა გქონდეთ მოკლე აღწერა ამ პროდუქტის შე
+   სახებ რომელსაც ექნება განსხვავებული ფერი და ზომა,თუ ამ აღწერაში რაიმე მნიშვნე
+   ლოვან ტექსტს შეიყვანთ ასეთ ტექსტს გაუკეთეთ border ,ამ აღწერის ქვემოთ უნდა გქონდეთ 2
+    ღილაკი,1 ღილაკი უნდა იყოს buy now რომელიც უნდა იყოს მწვანე ფერის და მასში მყოფიტექსტი
+    უნდა იყოს წითელი ფერის,ბორდერი კი შავი ფერის,მეორე ღლაკი კი უნდა იყოს ლინკზე გადასასვლელიღილაკი 
+    რომელიც გადაგიყვანთ ამ პროდუქტის შესახებ სხვა ვებსაიტზე,ამ მეორე ღილაკის ფერი უნდა იყოს წითელი ,მასში
+     მყოფი ტქექსტი უნდა იყოს თეთრი და ბბორდერი უნდა ქონდეს იასამნისფერი,რაც შეეხება footer ს, footer ში 
+     უნდა გაააკეთოთ სარეგისტრაციო ფორმა სადაც მომხამრებელს მოსთხოვთ მის სახელს ემაილს პაროლს და ტელეფ
+     ონის ნომერს ,შეცვალეთ ამ ფორმების ბექგრაუნდ ფერები ლამაზად,ასევე დააამატეთ placehodler ლეიბლების მ
+     აგივრად,და ბოლოში უნდა გქონდეთ დადასტურების ღილაკი,ამ footer ში ასევე უნდა გქონდეთ ზუსტად იგივ
+     ე ნავიგაციის მენიუ რომელიცაიყვანს მომხამრებელს მისთვის სასურველ პრიდუქციაზე რომ ზემოთ სქროლვა არ მო
+უწიოს -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: black;">
+        <nav>
+            <a href="#footer" style="font-size: 20px;">footer</a>
+            <a href="#tshirst" style="font-size: 20px;">tshrt</a>
+            <a href="#hood" style="font-size: 20px;">hood</a>
+        </nav>
+    </header>
+    <main>
+        <h2>tshrt</h3>
+        <div class="tshrt">
+            <section style="background-color: aqua;">
+                <h2>Cotton Hi-Neck T-Shirt</h2><br>
+                <p>cost 70$</p>
+                <img src="data:image/jpeg;base64,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" alt="">
+                <img src="./image.png" alt="">
+                <img src="./image copy.png" alt="" style="font-size: 10px;"><br>
+                <p>Made from 100% Supima cotton for a luxuriously soft look and feel. Its extra-long staples have earned Supima a reputation as the world’s best-quality cotton, making it smoother and more durable than any other. At 200 g/m2, our Cotton Hi-Neck T-Shirt is heavy-weight and has a slightly uniform drape.</p>
+                <br>
+                <button style="color: red;background-color: green;">buy now!</button>
+                <button><a href="https://www.sonofatailor.com/product/cotton-hi-neck-t-shirt">link</a></button>
+            </section>
+            <section style="background-color: aqua;">
+                <h2>მეგობრებად</h2><br>
+                <p>cost 45$</p>
+                <img src="./image copy 3.png" alt="">
+                <img src="./image copy 2.png" alt="">
+                <img src="./image copy 4.png" alt="" style="font-size: 10px;"><br>
+                <p>მიწოდების პირობები:
+თბილისი - უფასო კურიერული მომსახურება. 2-3 სამუშაო დღეში.
+
+თბილისი ექსპრესი - 11 ლარი - 1 სამუშაო დღე.
+
+საქართველოს ქალაქებსა და სოფლებში - 8 ლარი. 2-3 სამუშაო დღეში.
+მაისურის ზომების ცხრილი:</p>
+                <br>
+                <button style="color: red;background-color: green;">buy!</button>
+                <button><a href="https://tshirt.ge/collections/t-shirt">link</a></button>
+                
+            </section>
+            <section style="background-color: aqua;">
+                <h2></h2><br>
+                <p>cost 55$</p>
+                <img src="https://tshirt.ge/cdn/shop/files/Machete_T-Shirt_Light_Blue.png?v=1753354452" alt="">
+                <img src=".https://tshirt.ge/cdn/shop/files/Machete_T-Shirt_black.png?v=1753354452" alt="">
+                <img src="https://tshirt.ge/cdn/shop/files/Machete_T-Shirt_Military_Green.png?v=1753354452" alt=""><br>
+                <p>
+
+                მაჩეტე
+                55.00 GEL
+
+                .
+                    ფერი: ბაცი ცისფერი
+                    ბაცი ცისფერი
+            ბორდო
+            მუქი ნაცრისფერი
+    სამხედრო მწვანე
+    მონადირის მწვანე
+    მუქი ლურჯი
+    შავი
+    ბოთლის მწვანე
+    ზომა: S
+    S
+    M
+    L
+    XL
+    XXL
+    1
+
+    დაამატე კალათაში
+         it now
+    visamasteramerican express
+    ავტორი: ცინკვესები
+    კატეგორიები: იუმორი, მთავარი, ცინკვესები
+        აღწერა
+        მიწოდების პირობები:
+     - უფასო კურიერული მომსახურება. 2-3 სამუშაო დღეში.
+
+        თბილისი ექსპრესი - 11 ლარი - 1 სამუშაო დღე.
+
+     ქალაქებსა და სოფლებში - 8 ლარი. 2-3 სამუშაო დღეში.
+    მაისურის ზომების ცხრილი:
+
+</p>
+                <br>
+                <button style="color: red;background-color: green;">buy!</button>
+                <button><a href="https://tshirt.ge/collections/t-shirt/products/machete">link</a></button>
+            </section>
+        </div>
+        <div class="hood">
+            <section style="background-color: rgb(255, 123, 0);">
+                <h2>ვაჟა</h2><br>
+                <p>cost 80$</p>
+                <img src="https://tshirt.ge/cdn/shop/files/VazhaHoodiedarkblue.png?v=1753357860" alt="">
+                <img src="https://tshirt.ge/cdn/shop/files/VazhaHoodieGreen.png?v=1753357860" alt="">
+                <img src="https://tshirt.ge/cdn/shop/files/VazhaHoodiered.png?v=1753357860" alt="" style="font-size: 10px;"><br>
+                <p>
+მიწოდების პირობები:
+თბილისი - უფასო კურიერული მომსახურება. 2-3 სამუშაო დღეში.
+
+თბილისი ექსპრესი - 11 ლარი - 1 სამუშაო დღე.
+
+საქართველოს ქალაქებსა და სოფლებში - 8 ლარი. 2-3 სამუშაო დღეში.
+ჰუდის ზომების ცხრილი:</p>
+                <br>
+                <button style="color: red;background-color: green;">buy now!</button>
+                <button><a href="https://www.sonofatailor.com/product/cotton-hi-neck-t-shirt">link</a></button>
+            </section>
+            <section style="background-color: rgb(255, 123, 0);">
+                <h2>ვაჟა</h2><br>
+                <p>cost 80$</p>
+                <img src="https://tshirt.ge/cdn/shop/files/VazhaHoodiedarkblue.png?v=1753357860" alt="">
+                <img src="https://tshirt.ge/cdn/shop/files/VazhaHoodieGreen.png?v=1753357860" alt="">
+                <img src="https://tshirt.ge/cdn/shop/files/VazhaHoodiered.png?v=1753357860" alt="" style="font-size: 10px;"><br>
+                <p></p>
+                <br>
+                <button style="color: red;background-color: green;">buy now!</button>
+                <button><a href="https://www.sonofatailor.com/product/cotton-hi-neck-t-shirt">link</a></button>
+            </section>
+            <section style="background-color: rgb(255, 123, 0);">
+                <h2>არასწორად ვარჰიშობ</h2><br>
+                <p>cost 80$</p>
+                <img src="https://tshirt.ge/cdn/shop/files/Arasworad_Varjishob_Hoodie_Green.png?v=1753358493"alt="">
+                <img src="https://tshirt.ge/cdn/shop/files/Arasworad_Varjishob_Hoodie_black.png?v=1753358493" alt="">
+                <img src="https://tshirt.ge/cdn/shop/files/Arasworad_Varjishob_Hoodie_Red.png?v=1753358493" alt="" style="font-size: 10px;"><br>
+                <p></p>
+                <br>
+                <button style="color: red;background-color: green;">buy now!</button>
+                <button><a href="https://www.sonofatailor.com/product/cotton-hi-neck-t-shirt">link</a></button>
+            </section>
+        </div>
+    </main>
+    <footer style="background-color: brown;">
+        <form>
+            <label for="a">სახელი</label>
+            <input type="text" id="a">
+            <br>
+            <label for="v">გვარი</label>
+            <input type="text" id="v"><br>
+            <label for="b">მისამართი</label>
+            <input type="text" id="b">
+            <br>
+            <label for="n">ტელეფონის ნომერი</label>
+            <input type="number" id="n">
+            <br>
+            <input type="submit">
+        </form>
+        <br>
+        <p>დამატებითი ინფორმაცისათვი დაგვიკავშირდით:5545124,shop@gmai.com</p>
+    </footer>
+</body>
+</html>
