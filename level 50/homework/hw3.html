@@ -1,0 +1,129 @@
+<!-- შექმენით multypage website ქვეყნების შესახებ,ვებსაიტზე უნდა იყოს გამოყენებული ყველაფერ
+ ი რაც ვისწავცლეთ,ნავიგაცია,registration forms,dropdown men და ასე შემდეგ,საიტი იყოს 5 ქვეყანაზ
+ ე,გასტილეთ ლამაზად თქვენი ვებსაიტი,გამოიყენეთ EXTERNAL CSS და style inheritance,მაქსიმალურა
+ დ დახვეწილი და გამართული უნდა იყოს ვებსაიტი,უნდა გქონდეთმთავარი გვერდი ნავიგაციით,ამ მთ
+ აავარ გვერდზე უნდა გქონდეთ ზოგადი ინფორმაცია ქვეყნების შესახებ(რომ ეს საიტი არის ქვეყნებზე)
+ და თითონ ქვეყნის ფეიჯებზე უნდა გქონდეთ ინფორმაცია ქვეყნებზე სურათები ისტორია და ასე შემდ
+ ეგ,თითეული ქვეყნის გვერდზეც იყოს ნავიგაცია საიდანაც გადავალ ან მთავარ გვერდზე ან სხვა ქვეყნის ფეიჯზე
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hw1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./hw1.html">Georgia</a>
+            <a href="./hw2.html">Franch</a>
+            <a href="./hw3.html">main</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Spain</h1>
+        <img src="data:image/png;base64,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" alt="">
+        <p>This article is about the country. For other uses, see Spain (disambiguation).
+"España" redirects here. For other uses, see España (disambiguation).
+Kingdom of Spain
+Reino de España (Spanish)
+7 other names[a]
+Flag of Spain
+Flag
+Coat of arms of Spain
+Coat of arms
+Motto: Plus ultra (Latin)
+(English: 'Further Beyond')
+Anthem: Marcha Real (Spanish)[1]
+(English: 'Royal March')
+Duration: 54 seconds.0:54
+
+Show globe
+Show map of Europe
+Show all
+  Location of Spain
+  Spain within the European Union
+  De jure non-self-governing territory[b]
+Capital
+and largest city
+Madrid
+40°26′N 3°42′W
+Official language	Spanish[c][d]
+Nationality (2025)[8]	
+85.7% Spanish
+14.3% foreigners
+Religion (2025)[9]	
+58.6% Roman Catholicism
+40% non-practicing Catholic
+18.6% practicing Catholic
+13.3% atheist
+11.7% indifferent or no religion
+11.1% agnostic
+3.6% other religion
+1.7% unanswered
+Demonyms	
+SpaniardSpanish
+Government	Unitary parliamentary constitutional monarchy
+• Monarch
+Felipe VI
+• Prime Minister
+Pedro Sánchez
+• President of the Congress of Deputies
+Francina Armengol
+• President of the Senate
+Pedro Rollán
+Legislature	Cortes Generales
+• Upper house
+Senate
+• Lower house
+Congress of Deputies
+Formation
+• Dynastic union
+20 January 1479
+• Sole sovereign
+14 March 1516
+• Centralised state
+9 June 1715
+• First constitution
+19 March 1812
+• Current constitution
+29 December 1978
+Area
+• Total
+506,030[10] km2 (195,380 sq mi) (50th)
+• Water (%)
+0.89[11]
+Population
+• 2025 estimate
+Neutral increase 49,315,949[8] (31st)
+• Density
+97/km2 (251.2/sq mi) (119th)
+GDP (PPP)	2025 estimate
+• Total
+Increase $2.812 trillion[12] (15th)
+• Per capita
+Increase $56,555[12] (34th)
+GDP (nominal)	2025 estimate
+• Total
+Increase $1.800 trillion[12] (12th)
+• Per capita
+Increase $36,192[12] (29th)
+Gini (2024)	Positive decrease 31.2[13]
+medium inequality
+HDI (2023)	Increase 0.918[14]
+very high (28th)
+Currency	Euro[e] (€) (EUR)
+Time zone	UTC⁠±0 to +1 (WET and CET)
+• Summer (DST)
+UTC+1 to +2 (WEST and CEST)
+Note: most of Spain observes CET/CEST, except the Canary Islands which observe WET/WEST.
+Date format	DD/MM/YYYY
+Calling code	+34
+ISO 3166 code	ES
+Internet TLD	.es[f]
+Spain,[g] officially the Kingdom of Spain,[h] is a country in Southern and Western Europe with territories in North Africa.[i] Featuring the southernmost point of continental Europe, it is the largest country in Southern Europe and the fourth-most populous European Union (EU) member state. Spanning the majority of the Iberian Peninsula, its territory also includes the Canary Islands, in the Eastern Atlantic Ocean, the Balearic Islands, in the Western Mediterranean Sea, and the autonomous cities of Ceuta and Melilla, in mainland Africa. Peninsular Spain is bordered to the north by France, Andorra, and the Bay of Biscay; to the east and south by the Mediterranean Sea and Gibraltar; and to the west by Portugal and the Atlantic Ocean. Spain's capital and largest city is Madrid; other major urban areas include Barcelona, Valencia, Seville, Zaragoza, Málaga, Murcia, and Palma de Mallorca.</p>
+    </main>
+</body>
+</html>
