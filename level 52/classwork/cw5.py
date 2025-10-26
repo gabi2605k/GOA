@@ -4,4 +4,5 @@ def f(w):
     res = ""
     n = 4
     for i in w.split(" "):
-        
+        return i
+print(f(1))

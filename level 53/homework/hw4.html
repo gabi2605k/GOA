@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4 Divs with Small Boxes</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%; 
+  }
+
+  .main-box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-top: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .small-box {
+    width: 40px;
+    height: 40px;
+    background-color: #e74c3c;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="main-box"><div class="small-box"></div></div>
+  <div class="main-box"><div class="small-box"></div></div>
+  <div class="main-box"><div class="small-box"></div></div>
+  <div class="main-box"><div class="small-box"></div></div>
+</div>
+</body>
+</html>
